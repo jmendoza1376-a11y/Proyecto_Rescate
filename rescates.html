@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Listado de reportes de animales rescatados y su estado.">
+  <title>Reporte de rescates | Control de Rescate y Adopción</title>
+</head>
+<body>
+  <header>
+    <h1>Reporte de rescates</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="reportar.html">Reportar un rescate</a></li>
+        <li><a href="rescates.html" aria-current="page">Reporte de rescates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="listado-rescates">
+      <h2 id="listado-rescates">Animales registrados</h2>
+      <table>
+        <caption>Registro de rescates y estado de atención</caption>
+        <thead>
+          <tr>
+            <th scope="col">Identificación</th>
+            <th scope="col">Especie</th>
+            <th scope="col">Fecha del rescate</th>
+            <th scope="col">Lugar</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Rescate 001</th>
+            <td>Perro</td>
+            <td><time datetime="2026-10-12">12 de octubre de 2026</time></td>
+            <td>Centro</td>
+            <td>En refugio</td>
+          </tr>
+          <tr>
+            <th scope="row">Rescate 002</th>
+            <td>Gato</td>
+            <td><time datetime="2026-10-18">18 de octubre de 2026</time></td>
+            <td>Sector norte</td>
+            <td>En atención veterinaria</td>
+          </tr>
+          <tr>
+            <th scope="row">Rescate 003</th>
+            <td>Perro</td>
+            <td><time datetime="2026-10-25">25 de octubre de 2026</time></td>
+            <td>Sector sur</td>
+            <td>En proceso de adopción</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="nuevo-reporte">
+      <h2 id="nuevo-reporte">¿Necesita registrar un rescate?</h2>
+      <p><a href="reportar.html">Abrir formulario de reporte</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver al inicio</a></p>
+  </footer>
+</body>
+</html>
